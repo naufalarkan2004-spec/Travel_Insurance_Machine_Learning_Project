@@ -1,6 +1,6 @@
 # Travel Insurance Claim Prediction
 
-Capstone project Data Science: memprediksi apakah pemegang polis asuransi perjalanan akan mengajukan klaim (`Claim` = Yes/No), lalu mensimulasikan dampak finansialnya dengan *cost-benefit simulation*.
+Pembuatan model yang memprediksi apakah pemegang polis asuransi perjalanan akan mengajukan klaim (`Claim` = Yes/No), lalu mensimulasikan dampak finansialnya dengan *cost-benefit simulation*.
 
 > Seluruh analisis ada di satu notebook, folder notebook/: [`TravelInsurance_ClaimClassification.ipynb`](TravelInsurance_ClaimClassification.ipynb) (ditulis dalam Bahasa Indonesia).
 
@@ -18,7 +18,7 @@ Model ini lebih cocok dibaca sebagai **alat prioritisasi/penyaringan polis**, bu
 
 ## Dataset
 
-File: `data_travel_insurance.csv`
+File: `data_travel_insurance.csv`, `data_clean.csv` (after cleaning)
 
 | Kolom | Keterangan |
 |---|---|
@@ -33,7 +33,7 @@ File: `data_travel_insurance.csv`
 | `Age` | Usia pemegang polis |
 | `Claim` | **Target**: Yes / No |
 
-Sumber dan lisensi data: _isi bagian ini (mis. tautan Kaggle atau sumber asli) sebelum repo dipublikasikan. Pastikan lisensinya mengizinkan data diunggah ulang ke GitHub._
+Sumber dan lisensi data:https://www.kaggle.com/datasets/mhdzahier/travel-insurance/code?datasetId=111060&sortBy=voteCount
 
 ## Alur Analisis
 
