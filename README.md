@@ -2,7 +2,7 @@
 
 Capstone project Data Science: memprediksi apakah pemegang polis asuransi perjalanan akan mengajukan klaim (`Claim` = Yes/No), lalu mensimulasikan dampak finansialnya dengan *cost-benefit simulation*.
 
-> Seluruh analisis ada di satu notebook: [`TravelInsurance_ClaimClassification.ipynb`](TravelInsurance_ClaimClassification.ipynb) (ditulis dalam Bahasa Indonesia).
+> Seluruh analisis ada di satu notebook, folder notebook/: [`TravelInsurance_ClaimClassification.ipynb`](TravelInsurance_ClaimClassification.ipynb) (ditulis dalam Bahasa Indonesia).
 
 ## Ringkasan
 
