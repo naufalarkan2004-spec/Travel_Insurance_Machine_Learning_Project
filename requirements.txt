@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn>=1.5
+xgboost
+lightgbm
+feature-engine
+imbalanced-learn
+shap
+jupyter
