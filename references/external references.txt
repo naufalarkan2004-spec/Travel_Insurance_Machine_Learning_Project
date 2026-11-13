@@ -1,0 +1,26 @@
+EXTERNAL REFERENCES
+Travel Insurance Claim Prediction (Capstone 3, AlphaTeam)
+
+A. Asumsi biaya (cost-benefit)
+1. Squaremouth, "Rising travel costs led to a big shift in travel insurance payouts in 2024"
+   https://www.squaremouth.com/press-room/rising-travel-costs-led-to-a-big-shift-in-travel-insurance-payouts-in-2024
+   Sumber COST_FN = USD 2.609 (rata-rata nilai klaim asuransi perjalanan, data pasar AS).
+   Catatan: ini asumsi dari sumber luar, bukan nilai klaim perusahaan pada dataset.
+   COST_FP = rata-rata Net Sales - rata-rata Commission dihitung dari data, bukan dari sumber luar.
+
+B. Dokumentasi metode dan library
+2. XGBoost, Parameters (scale_pos_weight untuk data tidak seimbang)
+   https://xgboost.readthedocs.io/en/stable/parameter.html
+3. scikit-learn, User Guide dan API
+   https://scikit-learn.org/stable/
+   Dipakai: LogisticRegression, SelectFpr, TargetEncoder, StratifiedKFold, GridSearchCV, precision_recall_curve, average_precision_score, fbeta_score.
+4. SHAP documentation
+   https://shap.readthedocs.io/
+5. feature-engine documentation (Winsorizer)
+   https://feature-engine.trainindata.com/
+6. imbalanced-learn documentation (RandomOverSampler, RandomUnderSampler, SMOTE, NearMiss)
+   https://imbalanced-learn.org/stable/
+7. LightGBM documentation
+   https://lightgbm.readthedocs.io/
+
+Catatan: URL pada bagian B adalah halaman dokumentasi resmi library; periksa kembali bahwa semua tautan terbuka sebelum dikumpulkan.
