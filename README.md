@@ -157,4 +157,4 @@ Python, pandas, NumPy, SciPy, scikit-learn, imbalanced-learn, XGBoost, LightGBM,
 
 Capstone 3, Purwadhika Data Science & Machine Learning (AlphaTeam).
 
-_Tambahkan nama anggota tim dan tautan LinkedIn/GitHub di sini._
+Naufal Arkan, Innarcaya Nadiar
